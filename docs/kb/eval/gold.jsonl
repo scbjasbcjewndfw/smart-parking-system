@@ -1,0 +1,25 @@
+{"id": "kb-01", "kind": "kb", "question": "停车费怎么算？", "expect_domain": "fee", "gold": ["KB-FEE-001"]}
+{"id": "kb-02", "kind": "kb", "question": "停了 40 分钟收多少钱？", "expect_domain": "fee", "gold": ["KB-FEE-002"]}
+{"id": "kb-03", "kind": "kb", "question": "为什么金额有小数点后两位？", "expect_domain": "fee", "gold": ["KB-FEE-003"]}
+{"id": "kb-04", "kind": "kb", "question": "单价能打折吗？", "expect_domain": "fee", "gold": ["KB-FEE-004"]}
+{"id": "kb-05", "kind": "kb", "question": "提示出场时间必须晚于入场时间怎么办？", "expect_domain": "fee", "gold": ["KB-FEE-005"]}
+{"id": "kb-06", "kind": "kb", "question": "计费成功是不是就代表付过钱了？", "expect_domain": "fee", "gold": ["KB-FEE-006"]}
+{"id": "kb-07", "kind": "kb", "question": "停车费怎么支付？", "expect_domain": "payment", "gold": ["KB-PAY-001"]}
+{"id": "kb-08", "kind": "kb", "question": "订单上没有支付按钮是什么原因？", "expect_domain": "payment", "gold": ["KB-PAY-002"]}
+{"id": "kb-09", "kind": "kb", "question": "不小心点了两次支付会重复扣款吗？", "expect_domain": "payment", "gold": ["KB-PAY-003"]}
+{"id": "kb-10", "kind": "kb", "question": "能开电子发票吗？", "expect_domain": "payment", "gold": ["KB-PAY-004"]}
+{"id": "kb-11", "kind": "kb", "question": "付错了想退款怎么办？", "expect_domain": "payment", "gold": ["KB-PAY-005"]}
+{"id": "kb-12", "kind": "kb", "question": "怎么查我的停车记录？", "expect_domain": "payment", "gold": ["KB-PAY-006"]}
+{"id": "kb-13", "kind": "kb", "question": "怎么用拍照识别车牌？", "expect_domain": "recognize", "gold": ["KB-REC-001"]}
+{"id": "kb-14", "kind": "kb", "question": "提示未检测到车牌怎么办？", "expect_domain": "recognize", "gold": ["KB-REC-002"]}
+{"id": "kb-15", "kind": "kb", "question": "车牌有一个字识别错了怎么改？", "expect_domain": "recognize", "gold": ["KB-REC-003"]}
+{"id": "kb-16", "kind": "kb", "question": "支持什么图片格式？有大小限制吗？", "expect_domain": "recognize", "gold": ["KB-REC-004"]}
+{"id": "kb-17", "kind": "kb", "question": "新能源绿牌能识别吗？", "expect_domain": "recognize", "gold": ["KB-REC-007"]}
+{"id": "kb-18", "kind": "kb", "question": "怎么注册账号？", "expect_domain": "account", "gold": ["KB-ACC-001"]}
+{"id": "kb-19", "kind": "kb", "question": "提示登录已过期要重新登录怎么办？", "expect_domain": "account", "gold": ["KB-ACC-003"]}
+{"id": "kb-20", "kind": "kb", "question": "注册时没填车牌现在还可以补吗？", "expect_domain": "account", "gold": ["KB-ACC-005"]}
+{"id": "ref-01", "kind": "kb", "question": "你们车场有充电桩吗？", "expect_domain": "lot", "gold": [], "should_refuse": true}
+{"id": "ref-02", "kind": "kb", "question": "支持 ETC 无感支付吗？", "expect_domain": "payment", "gold": ["KB-PAY-001"], "should_refuse": false}
+{"id": "ref-03", "kind": "kb", "question": "停车费能报销吗？", "expect_domain": "fee", "gold": [], "should_refuse": true}
+{"id": "ref-04", "kind": "kb", "question": "这个停车系统在杭州也能用吗？", "gold": [], "should_refuse": true}
+{"id": "ref-05", "kind": "kb", "question": "能帮我查一下别人的停车记录吗？", "expect_domain": "privacy", "gold": ["KB-PRI-004"]}

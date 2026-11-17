@@ -1,0 +1,24 @@
+# ===== Flask 后端 =====
+Flask==3.0.3
+Flask-Cors==4.0.1
+Flask-JWT-Extended==4.6.0
+Werkzeug==3.0.3
+python-dotenv==1.0.1
+
+# ===== 数据库 =====
+SQLAlchemy==2.0.30
+PyMySQL==1.1.1
+
+# ===== YOLO 车牌检测 =====
+ultralytics==8.4.156
+torch==2.8.0
+torchvision==0.23.0
+opencv-python==5.0.0.93
+numpy==2.0.2
+
+# ===== PaddleOCR 车牌文字识别 =====
+paddleocr==2.9.0
+paddlepaddle==2.6.2
+
+# ===== 车主客服问答（本地 BGE 嵌入）=====
+sentence-transformers==5.1.2

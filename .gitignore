@@ -1,0 +1,37 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ===== 环境变量（含密钥，禁止入库）=====
+.env
+.env.local
+
+# ===== IDE =====
+.idea/
+.vscode/
+
+# ===== 数据库与运行产物 =====
+instance/
+*.db
+*.sqlite3
+
+# ===== 模型权重 / 训练与识别产物（体积大，需自行准备）=====
+backend/car_project/weight/
+backend/car_project/Ultralytics/
+backend/plate_rec/plate_exp/
+backend/plate_rec/runs/
+backend/plate_rec/.idea/
+
+# ===== 前端依赖与构建产物 =====
+frontend/node_modules/
+frontend/dist/
+
+# ===== 系统文件 =====
+.DS_Store
+Thumbs.db
+
+# ===== 本地工具数据 =====
+.workbuddy/
